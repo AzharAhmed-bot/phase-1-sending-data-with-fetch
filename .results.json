@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2023-03-27T12:41:35.197Z",
+    "end": "2023-03-27T12:41:35.735Z",
+    "duration": 538
+  },
+  "tests": [
+    {
+      "title": "makes a POST request to /users with a name and email",
+      "fullTitle": "submitData() makes a POST request to /users with a name and email",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: submitData is not defined\n    at Context.<anonymous> (test/indexTest.js:38:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "submitData is not defined"
+      }
+    },
+    {
+      "title": "handles the POST request response, retrieves the new id value and appends it to the DOM",
+      "fullTitle": "submitData() handles the POST request response, retrieves the new id value and appends it to the DOM",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: submitData is not defined\n    at Context.<anonymous> (test/indexTest.js:68:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "submitData is not defined"
+      }
+    },
+    {
+      "title": "handles a failed POST request using catch, appends the error message to the DOM",
+      "fullTitle": "submitData() handles a failed POST request using catch, appends the error message to the DOM",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: submitData is not defined\n    at Context.<anonymous> (test/indexTest.js:86:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "submitData is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "makes a POST request to /users with a name and email",
+      "fullTitle": "submitData() makes a POST request to /users with a name and email",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: submitData is not defined\n    at Context.<anonymous> (test/indexTest.js:38:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "submitData is not defined"
+      }
+    },
+    {
+      "title": "handles the POST request response, retrieves the new id value and appends it to the DOM",
+      "fullTitle": "submitData() handles the POST request response, retrieves the new id value and appends it to the DOM",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: submitData is not defined\n    at Context.<anonymous> (test/indexTest.js:68:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "submitData is not defined"
+      }
+    },
+    {
+      "title": "handles a failed POST request using catch, appends the error message to the DOM",
+      "fullTitle": "submitData() handles a failed POST request using catch, appends the error message to the DOM",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: submitData is not defined\n    at Context.<anonymous> (test/indexTest.js:86:5)\n    at process.processImmediate (node:internal/timers:475:21)",
+        "message": "submitData is not defined"
+      }
+    }
+  ],
+  "passes": []
+}

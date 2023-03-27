@@ -1,0 +1,68 @@
+{
+  "dogs": [
+    {
+      "dogName": "Luca",
+      "dogBreed": "German Shepherd",
+      "id": 1
+    },
+    {
+      "dogName": "Lola",
+      "dogBreed": "Giant Schnauzer",
+      "id": 2
+    },
+    {
+      "dogName": "",
+      "dogBreed": "",
+      "id": 3
+    },
+    {
+      "dogName": "",
+      "dogBreed": "",
+      "id": 4
+    },
+    {
+      "dogName": "Lola",
+      "dogBreed": "",
+      "id": 5
+    },
+    {
+      "dogName": "Skuchi",
+      "dogBreed": "Bull Dog",
+      "id": 6
+    },
+    {
+      "dogName": "Skuchi",
+      "dogBreed": "Bull Dog",
+      "id": 7
+    },
+    {
+      "dogName": "",
+      "dogBreed": "",
+      "id": 8
+    }
+  ],
+  "cats": [
+    {
+      "catName": "Stanley",
+      "catBreed": "Tabby",
+      "id": 1
+    },
+    {
+      "catName": "Gunnar",
+      "catBreed": "American Shorthair",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": 9000
+    }
+  ]
+}
