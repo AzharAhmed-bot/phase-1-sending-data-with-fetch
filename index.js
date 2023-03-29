@@ -24,4 +24,4 @@ function submitData(name, email){
     console.log(error.message)
     });
     }
-    submitData();
+    submitData("steve","steve@steve.com");
